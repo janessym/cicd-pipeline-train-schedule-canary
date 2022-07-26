@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@janessym 
-janessym
-/
-cicd-pipeline-train-schedule-canary
-Public
-forked from linuxacademy/cicd-pipeline-train-schedule-canary
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-cicd-pipeline-train-schedule-canary/train-schedule-kube-canary.yml
-@whboyd
-whboyd Update train-schedule-kube-canary.yml
-Latest commit 0f01d17 on Jun 20, 2019
- History
- 1 contributor
-49 lines (47 sloc)  929 Bytes
-
 kind: Service
 apiVersion: v1
 metadata:
@@ -76,18 +47,3 @@ spec:
         resources:
           requests:
             cpu: 200m
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
